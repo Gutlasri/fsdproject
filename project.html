@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business & Organization Website</title>
+    <style>
+        body { 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+        background: #f4f4f4; 
+        margin: 0;
+         }
+        .navbar { 
+        background: #333; 
+        padding: 15px; 
+        position: fixed; 
+        width: 100%; 
+        top: 0; 
+        left: 0; 
+        display: flex; 
+        justify-content: center; 
+        gap: 20px;
+         }
+        .navbar a { 
+        color: white; 
+        text-decoration: none; 
+        padding: 10px 15px;
+         background: #555;
+         border-radius: 5px; }
+        .navbar a:hover { 
+        background: #777; 
+        }
+        .section { 
+        padding: 100px 20px; 
+        min-height: 100vh; 
+        }
+        .small-business { 
+        background-image: url('small-business.jpg');
+         color: black;
+          }
+        .restaurant { 
+        background-image:url('res.jpg') ; 
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+         }
+        .law-firm { 
+        background-image:url('law-firm.jpg'); 
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white;
+         }
+        .gym { 
+        background-image:url('gym.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         color: black;
+          }
+        .event { 
+        background-image: url('event.jpg');
+        height: 100%;
+         color: white; 
+         }
+        .btn { 
+        padding: 10px 20px; 
+        text-decoration: none; 
+        display: inline-block;
+         margin-top: 10px;
+          border-radius: 5px; 
+          }
+        .btn-small-business { 
+        background: #33b5e5;
+         color: white; 
+         }
+        .btn-restaurant { 
+        background: #ff4500; 
+        color: white;
+         }
+        .btn-law {
+         background: #3498db; 
+         color: white; 
+         }
+        .btn-gym { 
+        background: #f39c12;
+         color: white; 
+         }
+        .btn-event {
+         background: #e74c3c; 
+         color: white; 
+         }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#small-business">Small Business</a>
+        <a href="#restaurant">Restaurant</a>
+        <a href="#law-firm">Law Firm</a>
+        <a href="#gym">Gym</a>
+        <a href="#event">Event</a>
+    </div>
+
+    <div id="small-business" class="section small-business">
+        <h2>Welcome to Our Small Business</h2>
+        <p>We provide the best services for our customers.</p>
+        <a href="#" class="btn btn-small-business">Learn More</a>
+    </div>
+
+    <div id="restaurant" class="section restaurant">
+        <img src="" alt="">
+        <h2>Our Delicious Menu</h2>
+        <div class="menu">
+            <p>Burger - <span class="price">₹100</span></p>
+            <p>Pizza - <span class="price">₹200</span></p>
+            <p>Pasta - <span class="price">₹150</span></p>
+        </div>
+        <a href="#" class="btn btn-restaurant">Order Now</a>
+    </div>
+
+    <div id="law-firm" class="section law-firm">
+        <h2>Expert Legal Solutions</h2>
+        <p>We provide legal consultation and representation in various fields.</p>
+        <a href="#" class="btn btn-law">Contact Us</a>
+    </div>
+
+    <div id="gym" class="section gym">
+        <h2>Welcome to Our Gym</h2>
+        <p>Join us for the best fitness experience.</p>
+        <a href="#" class="btn btn-gym">Get Started</a>
+    </div>
+
+    <div id="event" class="section event">
+        <h2>Join Our Exclusive Event</h2>
+        <p>Experience an unforgettable event filled with excitement.</p>
+        <a href="#" class="btn btn-event">Register Now</a>
+    </div>
+
+</body>
+</html>
